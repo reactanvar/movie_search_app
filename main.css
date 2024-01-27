@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+.app_header {
+    width: 100%;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.app_header input {
+    padding: 10px 20px;
+}
+
+.app_header button{
+    max-width: 250px;
+    margin-left: 20px;
+    padding: 10px 20px;
+}
+.results{
+    width: 100%;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(400px , 1fr));
+    gap: 40px;
+}
+
+.card img {
+    object-fit: cover;
+    object-position: top;
+}
